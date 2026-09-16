@@ -2,7 +2,6 @@ package org.soujava.demo.jakarta.hello;
 
 import dev.langchain4j.cdi.spi.RegisterAIService;
 import dev.langchain4j.service.SystemMessage;
-import jakarta.enterprise.context.ApplicationScoped;
 
 @RegisterAIService
 public interface NextReadBookService {
